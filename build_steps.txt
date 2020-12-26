@@ -1,0 +1,8 @@
+make -C /lib/modules/`uname -r`/build M=/home/amit/amit modules
+make[1]: Entering directory '/usr/src/linux-headers-5.3.0-46-generic'
+  CC [M]  /home/amit/amit/hello.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/amit/amit/hello.mod.o
+  LD [M]  /home/amit/amit/hello.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.3.0-46-generic'

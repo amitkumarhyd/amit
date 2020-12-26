@@ -1,0 +1,4 @@
+make -C /lib/modules/5.3.0-46-generic/build M=/home/amit/amit clean
+make[1]: Entering directory '/usr/src/linux-headers-5.3.0-46-generic'
+  CLEAN   /home/amit/amit/Module.symvers
+make[1]: Leaving directory '/usr/src/linux-headers-5.3.0-46-generic'
